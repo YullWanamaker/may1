@@ -8,13 +8,17 @@ import Leaderboard from '@/components/Leaderboard';
 import { Toaster } from 'react-hot-toast';
 
 const originalStudents = [
+<<<<<<< HEAD
   // 1학년 학생들 (grade1 디렉토리)
+=======
+>>>>>>> 349fd60b75164a117bdb4bc36eacc600d9c356d1
   { id: 1, name: '김현우', image: '/students/grade1/1학년_김현우.jpg', grade: 1 as const },
   { id: 2, name: '최정후', image: '/students/grade1/1학년_최정후.jpg', grade: 1 as const },
   { id: 3, name: '박지민', image: '/students/grade1/1학년_박지민.jpg', grade: 1 as const },
   { id: 4, name: '김유찬', image: '/students/grade1/1학년_김유찬.jpg', grade: 1 as const },
   { id: 5, name: '김태준', image: '/students/grade1/1학년_김태준.jpg', grade: 1 as const },
   { id: 6, name: '전지언', image: '/students/grade1/1학년_전지언.jpg', grade: 1 as const },
+<<<<<<< HEAD
   { id: 7, name: '이하윤', image: '/students/grade1/1학년_이하윤.jpg', grade: 1 as const },
   { id: 8, name: '윤하영', image: '/students/grade1/1학년_윤하영.jpg', grade: 1 as const },
   { id: 9, name: '김하람', image: '/students/grade1/1학년_김하람.jpg', grade: 1 as const },
@@ -99,6 +103,43 @@ const originalStudents = [
   { id: 84, name: '김강빈', image: '/students/grade3/3학년_김강빈.jpg', grade: 3 as const },
   { id: 85, name: '배주원', image: '/students/grade3/3학년_배주원.jpg', grade: 3 as const },
   { id: 86, name: '구본주', image: '/students/grade3/3학년_구본주.jpg', grade: 3 as const }
+=======
+  { id: 7, name: '이영광', image: '/students/grade1/1학년_이영광.jpg', grade: 1 as const },
+  { id: 8, name: '김승구', image: '/students/grade1/1학년_김승구.jpg', grade: 1 as const },
+  { id: 9, name: '김주성', image: '/students/grade1/1학년_김주성.jpg', grade: 1 as const },
+  { id: 10, name: '이조은', image: '/students/grade1/1학년_이조은.jpg', grade: 1 as const },
+  { id: 11, name: '노진철', image: '/students/grade1/1학년_노진철.jpg', grade: 1 as const },
+  { id: 12, name: '오승민', image: '/students/grade1/1학년_오승민.jpg', grade: 1 as const },
+  { id: 13, name: '전성현', image: '/students/grade1/1학년_전성현.jpg', grade: 1 as const },
+  { id: 14, name: '유은수', image: '/students/grade1/1학년_유은수.jpg', grade: 1 as const },
+  { id: 15, name: '구본서', image: '/students/grade1/1학년_구본서.jpg', grade: 1 as const },
+  { id: 16, name: '이현준', image: '/students/grade1/1학년_이현준.jpg', grade: 1 as const },
+  { id: 17, name: '김동현', image: '/students/grade1/1학년_김동현.jpg', grade: 1 as const },
+  { id: 18, name: '김하늘', image: '/students/grade1/1학년_김하늘.jpg', grade: 1 as const },
+  { id: 19, name: '임유정', image: '/students/grade1/1학년_임유정.jpg', grade: 1 as const },
+  { id: 20, name: '이사랑', image: '/students/grade1/1학년_이사랑.jpg', grade: 1 as const },
+  { id: 21, name: '김채연', image: '/students/grade1/1학년_ 김채연.jpg', grade: 1 as const },
+  { id: 22, name: '마지민', image: '/students/grade1/1학년_마지민.jpg', grade: 1 as const },
+  { id: 23, name: '김효민', image: '/students/grade1/1학년_김효민.jpg', grade: 1 as const },
+  { id: 24, name: '윤지우', image: '/students/grade1/1학년_윤지우.jpg', grade: 1 as const },
+  { id: 25, name: '김하연', image: '/students/grade1/1학년_김하연.jpg', grade: 1 as const },
+  { id: 26, name: '배주영', image: '/students/grade1/1학년_배주영.jpg', grade: 1 as const },
+  { id: 27, name: '김민서', image: '/students/grade1/1학년_김민서.jpg', grade: 1 as const },
+  { id: 28, name: '서이안', image: '/students/grade1/1학년_서이안.jpg', grade: 1 as const },
+  { id: 29, name: '이재교', image: '/students/grade1/1학년_이재교.jpg', grade: 1 as const },
+  { id: 30, name: '장승원', image: '/students/grade1/1학년_장승원.jpg', grade: 1 as const },
+  { id: 31, name: '정서린', image: '/students/grade1/1학년_정서린.jpg', grade: 1 as const },
+  { id: 32, name: '김소명', image: '/students/grade1/1학년_김소명.jpg', grade: 1 as const },
+  { id: 33, name: '강하음', image: '/students/grade1/1학년_강하음.jpg', grade: 1 as const },
+  { id: 34, name: '이지수', image: '/students/grade1/1학년_이지수.jpg', grade: 1 as const },
+  { id: 35, name: '임정원', image: '/students/grade1/1학년_임정원.jpg', grade: 1 as const },
+  { id: 36, name: '최시온', image: '/students/grade2/2학년_최시온.jpg', grade: 2 as const },
+  { id: 37, name: '이송연', image: '/students/grade2/2학년_이송연.jpg', grade: 2 as const },
+  { id: 38, name: '백솔이', image: '/students/grade2/2학년_백솔이.jpg', grade: 2 as const },
+  { id: 39, name: '김나경', image: '/students/grade2/2학년_김나경.jpg', grade: 2 as const },
+  { id: 40, name: '윤소정', image: '/students/grade2/2학년_윤소정.jpg', grade: 2 as const },
+  { id: 41, name: '강이안', image: '/students/grade2/2학년_강이안.jpg', grade: 2 as const }
+>>>>>>> 349fd60b75164a117bdb4bc36eacc600d9c356d1
 ];
 
 const initialProgress: UserProgress = {
